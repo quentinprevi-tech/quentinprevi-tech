@@ -1,54 +1,71 @@
 # Hi, I'm Quentin 👋
 
-I'm a junior system and network administrator in training, focused on Linux, Proxmox, automation, monitoring and homelab infrastructure.
+I'm training as a junior system and network administrator, with a strong interest in infrastructure, virtualization, networking, automation, monitoring and homelab operations.
 
-I use my homelab to build real projects around system administration, containerization, networking, monitoring and infrastructure automation.
+I use my homelab to build practical projects around Linux, Windows Server, Proxmox, Active Directory, firewalling, monitoring and infrastructure automation.
 
-## Current main project
+## Featured Projects
 
 ### Proxmox Discord Bot Hosting Platform
 
-I am building an automated Discord bot hosting platform on top of a Proxmox homelab.
+A Proxmox-based hosting platform for Discord bots, built as a portfolio project around infrastructure automation.
 
-The platform includes:
+The project includes:
 
-- Flask customer panel
-- SQLite order database
-- Stripe Checkout and Webhooks
-- automated LXC provisioning
-- Bash workers managed by systemd
-- admin dashboard
-- Prometheus dynamic service discovery
-- Grafana monitoring with Node Exporter
-- Tailscale Funnel exposure
-- beta access protection and rate limiting
+* Proxmox VE and LXC containers
+* Flask customer panel
+* SQLite order database
+* Automated LXC provisioning
+* Bash workers managed by systemd
+* Stripe Checkout and webhook workflow concepts
+* Prometheus dynamic service discovery
+* Grafana monitoring with Node Exporter
+* Security notes, screenshots and technical documentation
 
-Project repository:
+Repository: https://github.com/quentinprevi-tech/proxmox-discord-bot-hosting
 
-[proxmox-discord-bot-hosting](https://github.com/quentinprevi-tech/proxmox-discord-bot-hosting)
+### Windows Server Active Directory + OPNsense Homelab
 
-## Skills
+An enterprise-style virtual lab built on Proxmox VE to practice system and network administration.
 
-- Linux administration
-- Proxmox VE
-- LXC containers
-- Bash scripting
-- systemd services
-- Networking fundamentals
-- Prometheus and Grafana monitoring
-- Flask and SQLite basics
-- Git and GitHub
-- Infrastructure automation
-- Homelab operations
+The project includes:
 
-## Currently learning
+* OPNsense firewall/router
+* Segmented LAN / SERVERS / DMZ networks
+* Windows Server Active Directory Domain Services
+* Internal DNS
+* Windows 11 domain-joined client
+* Organizational Units, users and security groups
+* Group Policy Objects
+* Network share with AD group-based permissions
+* Debian/Nginx web server in a DMZ
+* WAN-to-DMZ NAT publication
+* Firewall hardening and validation tests
+* Proxmox snapshots and vzdump backups
 
-- Advanced Linux administration
-- Network administration
-- Infrastructure automation
-- Monitoring and alerting
-- Security best practices
-- DevOps fundamentals
+Repository: https://github.com/quentinprevi-tech/windows-server-ad-opnsense-homelab
+
+## Skills Practiced
+
+* Proxmox VE, LXC and virtual networking
+* Linux server administration
+* Bash scripting and systemd services
+* Windows Server, Active Directory, DNS and Group Policy
+* OPNsense firewalling, NAT and network segmentation
+* Debian and Nginx
+* Prometheus, Grafana and infrastructure monitoring
+* Git, GitHub and technical documentation
+* Backup, recovery and validation practices
+
+## Currently Learning
+
+* Advanced Linux administration
+* Windows Server administration
+* Network administration and firewalling
+* Infrastructure automation
+* Monitoring and alerting
+* Security best practices
+* DevOps fundamentals
 
 ## Goals
 
@@ -56,9 +73,9 @@ My goal is to grow as a system and network administrator by building practical, 
 
 I am especially interested in:
 
-- Linux servers
-- Proxmox and virtualization
-- automation
-- monitoring
-- networking
-- self-hosted infrastructure
+* Linux and Windows Server administration
+* Proxmox and virtualization
+* Networking and firewalling
+* Automation and monitoring
+* Secure self-hosted infrastructure
+* Infrastructure documentation and troubleshooting
