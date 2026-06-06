@@ -2,7 +2,7 @@
 
 I'm training as a junior system and network administrator, with a strong interest in infrastructure, virtualization, networking, automation, monitoring and homelab operations.
 
-I use my homelab to build practical projects around Linux, Windows Server, Proxmox, Active Directory, firewalling, cloud identity and infrastructure automation.
+I use my homelab to build practical projects around Linux, Windows Server, Proxmox, Active Directory, firewalling, cloud identity, security monitoring and infrastructure automation.
 
 ## Featured Projects
 
@@ -70,6 +70,25 @@ The project includes:
 
 Repository: https://github.com/quentinprevi-tech/wazuh-siem-homelab
 
+### Ansible Infrastructure Automation Lab
+
+An infrastructure automation lab using Ansible to configure and validate Linux servers from a dedicated control node.
+
+The project includes:
+
+* Dedicated Ansible control node
+* SSH key-based authentication
+* Ansible inventory management
+* Linux baseline automation
+* Nginx web server deployment
+* Automated service validation
+* Wazuh agent configuration checks
+* Idempotent playbooks with changed=0 validation
+* Mermaid architecture diagram
+* Screenshots and technical documentation
+
+Repository: https://github.com/quentinprevi-tech/ansible-infrastructure-automation-lab
+
 ### Proxmox Discord Bot Hosting Platform
 
 A Proxmox-based hosting platform for Discord bots, built as a portfolio project around infrastructure automation.
@@ -103,6 +122,10 @@ Repository: https://github.com/quentinprevi-tech/proxmox-discord-bot-hosting
 * Security event detection and SIEM alert validation
 * Windows Security event monitoring
 * Linux/Nginx log monitoring
+* Ansible automation and YAML playbooks
+* Infrastructure as Code basics
+* Configuration management
+* Idempotent server automation
 * Git, GitHub and technical documentation
 * Backup, recovery and validation practices
 
@@ -111,8 +134,9 @@ Repository: https://github.com/quentinprevi-tech/proxmox-discord-bot-hosting
 * Advanced Linux administration
 * Windows Server administration
 * Network administration and firewalling
-* Cloud identity and hybrid infrastructure (Microsoft Entra ID)
+* Cloud identity and hybrid infrastructure with Microsoft Entra ID
 * Infrastructure automation
+* Infrastructure automation with Ansible
 * Monitoring and alerting
 * SIEM and log analysis
 * Security best practices
