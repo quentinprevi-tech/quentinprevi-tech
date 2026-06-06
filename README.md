@@ -141,6 +141,9 @@ Repository: https://github.com/quentinprevi-tech/proxmox-discord-bot-hosting
 * Infrastructure as Code basics
 * Configuration management
 * Idempotent server automation
+* Proxmox backup and restore
+* Disaster recovery validation
+* Service recovery testing
 * Git, GitHub and technical documentation
 * Backup, recovery and validation practices
 
