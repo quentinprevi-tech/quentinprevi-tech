@@ -1,8 +1,8 @@
 # Hi, I'm Quentin 👋
 
-I'm training as a junior system and network administrator, with a strong interest in infrastructure, virtualization, networking, automation, monitoring and homelab operations.
+I'm training as a junior system and network administrator, with a strong interest in infrastructure, virtualization, networking, automation, monitoring, backup, security and homelab operations.
 
-I use my homelab to build practical projects around Linux, Windows Server, Proxmox, Active Directory, firewalling, cloud identity, security monitoring and infrastructure automation.
+I use my homelab to build practical projects around Linux, Windows Server, Proxmox, Active Directory, firewalling, cloud identity, security monitoring, backup and infrastructure automation.
 
 ## Featured Projects
 
@@ -89,6 +89,25 @@ The project includes:
 
 Repository: https://github.com/quentinprevi-tech/ansible-infrastructure-automation-lab
 
+### Veeam Backup & Replication Proxmox Lab
+
+A backup and disaster recovery lab using Veeam Backup & Replication 13 with Proxmox VE.
+
+The project includes:
+
+* Veeam Backup & Replication 13 installation on Windows Server
+* Proxmox VE host integration
+* Dedicated Proxmox Veeam worker appliance
+* ReFS backup repository with 64K allocation unit size
+* OPNsense firewall rules for segmented networks
+* Successful VM backup job
+* Full VM restore to a new Proxmox VM
+* Application-level restore validation with Nginx
+* Worker networking and firewall troubleshooting
+* Screenshots and technical documentation
+
+Repository: https://github.com/quentinprevi-tech/veeam-backup-replication-proxmox-lab
+
 ### Backup & Recovery Homelab
 
 A practical backup and recovery lab built on Proxmox VE to validate VM backup, restore and service recovery.
@@ -141,7 +160,12 @@ Repository: https://github.com/quentinprevi-tech/proxmox-discord-bot-hosting
 * Infrastructure as Code basics
 * Configuration management
 * Idempotent server automation
+* Veeam Backup & Replication
+* ReFS backup repositories
 * Proxmox backup and restore
+* VM backup and full restore validation
+* Backup infrastructure troubleshooting
+* Proxmox worker appliance deployment
 * Disaster recovery validation
 * Service recovery testing
 * Git, GitHub and technical documentation
@@ -157,6 +181,7 @@ Repository: https://github.com/quentinprevi-tech/proxmox-discord-bot-hosting
 * Infrastructure automation with Ansible
 * Monitoring and alerting
 * SIEM and log analysis
+* Backup infrastructure and disaster recovery
 * Security best practices
 * DevOps fundamentals
 
@@ -170,6 +195,7 @@ I am especially interested in:
 * Proxmox and virtualization
 * Networking and firewalling
 * Cloud and hybrid identity
+* Backup and disaster recovery
 * Automation and monitoring
 * Secure self-hosted infrastructure
 * Infrastructure documentation and troubleshooting
