@@ -70,6 +70,28 @@ The project includes:
 
 Repository: https://github.com/quentinprevi-tech/wazuh-siem-homelab
 
+### Zabbix Infrastructure Monitoring Lab
+
+An infrastructure monitoring lab built with Zabbix to supervise Linux servers, Windows Server, Veeam Backup & Replication and OPNsense in a segmented Proxmox homelab.
+
+The project includes:
+
+* Zabbix Server 7.4 installation on Debian 13
+* PostgreSQL-backed Zabbix deployment
+* Linux monitoring with Zabbix Agent 2
+* Windows Server monitoring with Zabbix Agent
+* Nginx HTTP service check with response code validation
+* Active Directory DNS TCP 53 monitoring
+* DNS alert trigger tested from PROBLEM to RESOLVED
+* Veeam Backup & Replication server monitoring
+* Veeam repository disk usage monitoring
+* Critical Veeam service triggers
+* OPNsense firewall monitoring through SNMP
+* Network interface, ICMP and SNMP availability monitoring
+* Screenshots and technical documentation
+
+Repository: https://github.com/quentinprevi-tech/zabbix-infrastructure-monitoring-lab
+
 ### Ansible Infrastructure Automation Lab
 
 An infrastructure automation lab using Ansible to configure and validate Linux servers from a dedicated control node.
@@ -152,6 +174,15 @@ Repository: https://github.com/quentinprevi-tech/proxmox-discord-bot-hosting
 * Microsoft Graph permissions and PowerShell
 * Debian and Nginx
 * Prometheus, Grafana and infrastructure monitoring
+* Zabbix infrastructure monitoring
+* SNMP monitoring
+* ICMP availability checks
+* HTTP service monitoring
+* DNS service monitoring
+* Zabbix triggers and alert validation
+* Windows service monitoring
+* Backup repository capacity monitoring
+* Firewall monitoring with SNMP
 * Wazuh SIEM and centralized log collection
 * Security event detection and SIEM alert validation
 * Windows Security event monitoring
@@ -179,6 +210,8 @@ Repository: https://github.com/quentinprevi-tech/proxmox-discord-bot-hosting
 * Cloud identity and hybrid infrastructure with Microsoft Entra ID
 * Infrastructure automation
 * Infrastructure automation with Ansible
+* Infrastructure monitoring with Zabbix
+* SNMP-based network device monitoring
 * Monitoring and alerting
 * SIEM and log analysis
 * Backup infrastructure and disaster recovery
@@ -197,5 +230,6 @@ I am especially interested in:
 * Cloud and hybrid identity
 * Backup and disaster recovery
 * Automation and monitoring
+* Monitoring, alerting and infrastructure troubleshooting
 * Secure self-hosted infrastructure
 * Infrastructure documentation and troubleshooting
