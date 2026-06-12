@@ -92,25 +92,6 @@ The project includes:
 
 Repository: https://github.com/quentinprevi-tech/zabbix-infrastructure-monitoring-lab
 
-### Ansible Infrastructure Automation Lab
-
-An infrastructure automation lab using Ansible to configure and validate Linux servers from a dedicated control node.
-
-The project includes:
-
-* Dedicated Ansible control node
-* SSH key-based authentication
-* Ansible inventory management
-* Linux baseline automation
-* Nginx web server deployment
-* Automated service validation
-* Wazuh agent configuration checks
-* Idempotent playbooks with changed=0 validation
-* Mermaid architecture diagram
-* Screenshots and technical documentation
-
-Repository: https://github.com/quentinprevi-tech/ansible-infrastructure-automation-lab
-
 ### Veeam Backup & Replication Proxmox Lab
 
 A backup and disaster recovery lab using Veeam Backup & Replication 13 with Proxmox VE.
@@ -130,20 +111,24 @@ The project includes:
 
 Repository: https://github.com/quentinprevi-tech/veeam-backup-replication-proxmox-lab
 
-### Backup & Recovery Homelab
+### Ansible Infrastructure Automation Lab
 
-A practical backup and recovery lab built on Proxmox VE to validate VM backup, restore and service recovery.
+An infrastructure automation lab using Ansible to configure and validate Linux servers from a dedicated control node.
 
 The project includes:
 
-* Proxmox VM backup with vzdump
-* Backup storage validation on backup-nvme
-* Restore into a separate test VM
-* IP conflict prevention during restore testing
-* Debian/Nginx service validation after restore
+* Dedicated Ansible control node
+* SSH key-based authentication
+* Ansible inventory management
+* Linux baseline automation
+* Nginx web server deployment
+* Automated service validation
+* Wazuh agent configuration checks
+* Idempotent playbooks with changed=0 validation
+* Mermaid architecture diagram
 * Screenshots and technical documentation
 
-Repository: https://github.com/quentinprevi-tech/backup-recovery-homelab
+Repository: https://github.com/quentinprevi-tech/ansible-infrastructure-automation-lab
 
 ### Proxmox Discord Bot Hosting Platform
 
@@ -162,6 +147,21 @@ The project includes:
 * Security notes, screenshots and technical documentation
 
 Repository: https://github.com/quentinprevi-tech/proxmox-discord-bot-hosting
+
+### Backup & Recovery Homelab
+
+A practical backup and recovery lab built on Proxmox VE to validate VM backup, restore and service recovery.
+
+The project includes:
+
+* Proxmox VM backup with vzdump
+* Backup storage validation on backup-nvme
+* Restore into a separate test VM
+* IP conflict prevention during restore testing
+* Debian/Nginx service validation after restore
+* Screenshots and technical documentation
+
+Repository: https://github.com/quentinprevi-tech/backup-recovery-homelab
 
 ## Skills Practiced
 
