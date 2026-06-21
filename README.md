@@ -109,7 +109,7 @@ The project includes:
 * Zabbix monitoring of the CA server and CertSvc service
 * Security notes and production PKI improvement considerations
 
-**Repository:** [windows-server-adcs-pki-lab](https://github.com/quentinprevi-tech/windows-server-adcs-pki-lab)
+Repository: https://github.com/quentinprevi-tech/windows-server-adcs-pki-lab
 
 ### Veeam Backup & Replication Proxmox Lab
 
