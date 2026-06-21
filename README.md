@@ -2,7 +2,7 @@
 
 I'm training as a junior system and network administrator, with a strong interest in infrastructure, virtualization, networking, automation, monitoring, backup, security and homelab operations.
 
-I use my homelab to build practical projects around Linux, Windows Server, Proxmox, Active Directory, firewalling, cloud identity, security monitoring, backup and infrastructure automation.
+I use my homelab to build practical projects around Linux, Windows Server, Proxmox, Active Directory, firewalling, cloud identity, security monitoring, backup, PKI and infrastructure automation.
 
 ## Featured Projects
 
@@ -188,6 +188,14 @@ Repository: https://github.com/quentinprevi-tech/backup-recovery-homelab
 * Linux server administration
 * Bash scripting and systemd services
 * Windows Server, Active Directory, DNS and Group Policy
+* Active Directory Certificate Services
+* Microsoft PKI basics
+* Enterprise Root CA deployment
+* Certificate templates
+* Certificate Signing Requests
+* Internal HTTPS certificate deployment
+* Windows certificate trust validation
+* Certificate Authority monitoring
 * OPNsense firewalling, NAT and network segmentation
 * Microsoft Entra ID, hybrid identity and Cloud Sync
 * Microsoft Graph permissions and PowerShell
@@ -233,6 +241,8 @@ Repository: https://github.com/quentinprevi-tech/backup-recovery-homelab
 * SNMP-based network device monitoring
 * Monitoring and alerting
 * SIEM and log analysis
+* Microsoft PKI and Active Directory Certificate Services
+* Certificate-based authentication and internal HTTPS
 * Backup infrastructure and disaster recovery
 * Security best practices
 * DevOps fundamentals
@@ -250,5 +260,6 @@ I am especially interested in:
 * Backup and disaster recovery
 * Automation and monitoring
 * Monitoring, alerting and infrastructure troubleshooting
+* PKI, certificates and secure internal services
 * Secure self-hosted infrastructure
 * Infrastructure documentation and troubleshooting
