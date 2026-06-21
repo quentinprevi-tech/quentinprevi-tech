@@ -92,6 +92,25 @@ The project includes:
 
 Repository: https://github.com/quentinprevi-tech/zabbix-infrastructure-monitoring-lab
 
+### Windows Server AD CS / PKI Homelab
+
+A Microsoft Active Directory Certificate Services lab built on Proxmox to practice internal PKI deployment and certificate-based trust.
+
+The project includes:
+
+* Windows Server AD CS Enterprise Root CA
+* Integration with an Active Directory domain
+* Internal CA trust validation from a domain-joined Windows client
+* Custom Web Server certificate template
+* Linux/OpenSSL CSR generation
+* Certificate issuance for a Debian/Nginx web server
+* HTTPS configuration for `web01.homelab.local`
+* Trusted HTTPS validation from Windows 11
+* Zabbix monitoring of the CA server and CertSvc service
+* Security notes and production PKI improvement considerations
+
+**Repository:** [windows-server-adcs-pki-lab](https://github.com/quentinprevi-tech/windows-server-adcs-pki-lab)
+
 ### Veeam Backup & Replication Proxmox Lab
 
 A backup and disaster recovery lab using Veeam Backup & Replication 13 with Proxmox VE.
